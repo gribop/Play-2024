@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>2048</h1>
+        <button id="new-game">Новая игра</button>
+        <div class="score-container">Очки: <span id="score">0</span></div>
+        <div class="grid-container"></div>
+        <button id="show-scores">Таблица рекордов</button>
+        <div id="scores-modal">
+            <h2>Таблица рекордов</h2> 
+            <ul id="scores-list"></ul>
+            <button id="close-scores">Закрыть</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
